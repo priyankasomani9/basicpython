@@ -15,5 +15,6 @@ class Solution(object):
          temp += (i**2)
       return self.solve(temp,visited)
 ob1 = Solution()
-op = ob1.isHappy(42)
-print("Is Happy:",op);
+for i in range(1,101):
+   op = ob1.isHappy(i)
+   print("{}Is Happy:".format(i),op);
