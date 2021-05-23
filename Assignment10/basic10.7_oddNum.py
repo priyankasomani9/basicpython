@@ -1,4 +1,4 @@
-#wap to print evem number from list
+#wap to print odd number from list
 list=[]
 oddlist=[]
 n=int(input("how many number you want in a list:"))
